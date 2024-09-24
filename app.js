@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import cookieParser from "cookie-parser";
 import fileUpload from "express-fileupload";
-import userRouter from "../Backend/routes/userRouter.js";
+import userRouter  from "../Backend/routes/userRouter.js"
 import jobRouter from "../Backend/routes/jobRouter.js";
 import applicationRouter from "../Backend/routes/applicationRouter.js";
 import {dbConnection} from "../Backend/database/dbConnection.js";
